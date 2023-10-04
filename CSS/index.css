@@ -3,8 +3,9 @@
     display: inline-block;
     align-content: center;
 }
-p.b {
+.p.b.b {
     font-family: sans-serif;
+    
   }
 /* Target the div with class logo */
 .logo {
@@ -16,7 +17,14 @@ p.b {
 nav {
     width: 73%;
     padding: 1%;
+    
 }
+.centered-li {
+    text-align: center;
+    display: inline-block;
+    padding-right: 15px;
+  }
+  
 
 /* Center the unordered list within its container */
 ul {
@@ -29,11 +37,12 @@ body {
     background-color: #FFF6BF;
 /* Center the images inside the logo container */
 .logo img {
+    height: 150px
     
 }
 /* Target the section with class heroImg */
 .heroImg {
-    height: 500%;
+    height: 50px;
     padding: 25px;
 }
 
@@ -51,7 +60,7 @@ footer {
 }
 /* Target the ul nested inside the footer element */
 footer ul {
-    display: inline-block;
+    display: inline-flex;
     
     padding: 15px; /* Remove default padding */
 
